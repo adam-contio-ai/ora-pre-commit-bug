@@ -1,5 +1,6 @@
 {
   "name": "ora-precommit-test",
+  "type": "module",
   "version": "1.0.0",
   "description": "Test project to demonstrate ora spinner issue with pre-commit hooks",
   "main": "test-spinner.js",
