@@ -1,0 +1,16 @@
+{
+  "name": "ora-precommit-test",
+  "version": "1.0.0",
+  "description": "Test project to demonstrate ora spinner issue with pre-commit hooks",
+  "main": "test-spinner.js",
+  "scripts": {
+    "test": "node test-spinner.js"
+  },
+  "dependencies": {
+    "ora": "^7.0.1"
+  },
+  "devDependencies": {},
+  "keywords": ["ora", "spinner", "pre-commit"],
+  "author": "",
+  "license": "ISC"
+}
