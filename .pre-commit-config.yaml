@@ -6,16 +6,13 @@ repos:
         entry: ./hooks/immediate-echo.sh
         language: script
         files: .*
-        stages: [commit]
       - id: delayed-echo
         name: Delayed Echo Hook
         entry: ./hooks/delayed-echo.sh
         language: script
         files: .*
-        stages: [commit]
       - id: spinner-hook
         name: Spinner Hook
         entry: ./hooks/spinner-hook.sh
         language: script
         files: .*
-        stages: [commit]
